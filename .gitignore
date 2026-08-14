@@ -1,0 +1,11 @@
+# Banco local gerado pelos scripts
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Arquivos de sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+
