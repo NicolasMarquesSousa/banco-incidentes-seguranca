@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Demonstração do Banco de Incidentes de Segurança</title>
+  <desc id="desc">Painel com resumo validado das consultas SQL do projeto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="1" stop-color="#0b3440"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#7dd3fc" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="620" rx="24" fill="url(#grid)"/>
+  <rect x="42" y="36" width="1116" height="64" rx="14" fill="#111827"/>
+  <circle cx="70" cy="68" r="7" fill="#ff5f57"/>
+  <circle cx="94" cy="68" r="7" fill="#febc2e"/>
+  <circle cx="118" cy="68" r="7" fill="#28c840"/>
+  <text x="600" y="75" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="18">banco-incidentes-seguranca — consultas validadas</text>
+
+  <text x="62" y="145" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">RESUMO DA INVESTIGAÇÃO</text>
+  <text x="62" y="178" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="18">Dados fictícios • SQLite • Integridade: OK</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="62" y="215" width="205" height="110" rx="14" fill="#0f172a" stroke="#1e3a5f"/>
+    <text x="82" y="250" fill="#94a3b8" font-size="16">EVENTOS</text>
+    <text x="82" y="300" fill="#38bdf8" font-size="42" font-weight="700">6</text>
+
+    <rect x="287" y="215" width="205" height="110" rx="14" fill="#0f172a" stroke="#1e3a5f"/>
+    <text x="307" y="250" fill="#94a3b8" font-size="16">INCIDENTES</text>
+    <text x="307" y="300" fill="#2dd4bf" font-size="42" font-weight="700">2</text>
+
+    <rect x="512" y="215" width="205" height="110" rx="14" fill="#0f172a" stroke="#1e3a5f"/>
+    <text x="532" y="250" fill="#94a3b8" font-size="16">FALHAS NO IP</text>
+    <text x="532" y="300" fill="#fb7185" font-size="42" font-weight="700">3</text>
+
+    <rect x="737" y="215" width="205" height="110" rx="14" fill="#0f172a" stroke="#1e3a5f"/>
+    <text x="757" y="250" fill="#94a3b8" font-size="16">INTERVALO</text>
+    <text x="757" y="300" fill="#fbbf24" font-size="42" font-weight="700">15s</text>
+
+    <rect x="962" y="215" width="196" height="110" rx="14" fill="#0f172a" stroke="#1e3a5f"/>
+    <text x="982" y="250" fill="#94a3b8" font-size="16">INTEGRIDADE</text>
+    <text x="982" y="300" fill="#4ade80" font-size="35" font-weight="700">OK</text>
+
+    <rect x="62" y="356" width="1096" height="190" rx="16" fill="#0b1220" stroke="#1e3a5f"/>
+    <text x="88" y="395" fill="#94a3b8" font-size="16" font-weight="600">INCIDENTE PRIORITÁRIO</text>
+    <text x="88" y="440" fill="#f8fafc" font-size="27" font-weight="700">Possível ataque de força bruta</text>
+    <text x="88" y="480" fill="#cbd5e1" font-size="19">IP 192.168.1.25  •  3 falhas  •  08:12:03 → 08:12:18</text>
+
+    <rect x="88" y="505" width="86" height="30" rx="15" fill="#7f1d1d"/>
+    <text x="131" y="526" text-anchor="middle" fill="#fecaca" font-size="14" font-weight="700">ALTA</text>
+    <rect x="185" y="505" width="150" height="30" rx="15" fill="#164e63"/>
+    <text x="260" y="526" text-anchor="middle" fill="#cffafe" font-size="14" font-weight="700">INVESTIGANDO</text>
+  </g>
+
+  <text x="600" y="587" text-anchor="middle" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="16">Projeto desenvolvido para estudo de SQL aplicado à Segurança da Informação</text>
+</svg>
+
