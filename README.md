@@ -1,4 +1,14 @@
+![Capa do Banco de Incidentes de Segurança](docs/capa.svg)
+
+<div align="center">
+
 # Banco de Incidentes de Segurança
+
+![SQLite](https://img.shields.io/badge/SQLite-Modelagem_relacional-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Consultas_analíticas-F97316?style=flat-square)
+![Dados](https://img.shields.io/badge/Dados-100%25_fictícios-22C55E?style=flat-square)
+
+</div>
 
 Projeto em **SQLite** para registrar eventos de autenticação, investigar endereços IP suspeitos e relacionar evidências a incidentes de segurança.
 
@@ -105,4 +115,8 @@ Resultado: estrutura íntegra e nenhuma violação de chave estrangeira.
 - importar eventos a partir de arquivos de log;
 - automatizar a criação de incidentes a partir de regras de detecção;
 - integrar o banco ao projeto Python Security Log Analyzer.
+
+---
+
+Desenvolvido por [Nicolas Marques](https://github.com/NicolasMarquesSousa) · [Ver portfólio](https://github.com/NicolasMarquesSousa)
 
